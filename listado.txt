@@ -1,0 +1,9 @@
+Aragorn: 9
+
+Gandalf: 10
+
+Bilbo: 8
+
+Legolas: 5
+
+Gollum: 7

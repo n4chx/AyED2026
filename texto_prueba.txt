@@ -1,0 +1,10 @@
+hola
+este
+es
+un
+texto
+de
+prueba
+para
+algoritmo
+python
