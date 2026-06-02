@@ -1,0 +1,61 @@
+
+1. Para guardar y subir cambios
+
+* git status
+* Te muestra qué archivos modificaste, cuáles borraste y qué está listo para guardarse.
+
+
+* git add .
+* Prepara todo los archivos que modificaste para el siguiente paso (el punto `.` significa "todo"). Si querés sumar uno solo, ponés `git add nombre_del_archivo.js`.
+
+
+* git commit -m "Tu mensaje acá"
+* Guarda tus cambios en el historial local con un mensaje que explica qué hiciste.
+
+
+* git push origin rama
+* Sube tus commits locales a GitHub. (Cambiá `rama` por el nombre de tu rama, por ejemplo: `git push origin main`).
+
+
+
+---
+
+## 2. Para traer lo que está en GitHub a tu compu
+
+* **`git pull origin rama`**
+* *¿Para qué sirve?* Trae los últimos cambios que están en GitHub y los fusiona con tu código local. Usalo siempre antes de empezar a programar para no trabajar sobre código viejo.
+
+
+* **`git clone URL_DEL_REPOSITORIO`**
+* *¿Para qué sirve?* Descarga un proyecto completo de GitHub a tu computadora por primera vez.
+
+
+
+---
+
+## 3. Para manejar Ramas (Branches)
+
+*Trabajar en ramas te evita romper el código principal (`main` o `master`) mientras probás cosas nuevas.*
+
+* **`git branch`**
+* *¿Para qué sirve?* Te muestra en qué rama estás parado y qué otras ramas existen.
+
+
+* **`git checkout -b nombre_nueva_rama`**
+* *¿Para qué sirve?* Crea una rama nueva y te salta automáticamente a ella.
+
+
+* **`git checkout nombre_rama`**
+* *¿Para qué sirve?* Te cambia de una rama a otra ya existente (sin el `-b`).
+
+
+* **`git merge nombre_rama`**
+* *¿Para qué sirve?* Fusiona los cambios de otra rama dentro de la rama en la que estás parado hoy.
+
+
+
+---
+
+> 💡 **El "machete" diario:**
+> Cuando termines una funcionalidad, el caminito rápido en la terminal siempre es:
+> `git add .`  ➡️  `git commit -m "mi cambio"`  ➡️  `git push origin main`
